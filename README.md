@@ -8,7 +8,7 @@ Tab on the Motivate Me Button in Status Bar.
 
 For example:
 
-\!\[feature X\]\(images/feature-x.png\)
+<img src="demo/motivateMe.gif"/>
 
 ## Requirements
 
