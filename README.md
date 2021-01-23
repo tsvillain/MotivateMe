@@ -12,15 +12,11 @@ For example:
 
 ## Requirements
 
-Active Internet Connection.
+- Active Internet Connection.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of Motivate Me
+Check [CHANGELOG.md](https://github.com/tsvillain/MotivateMe/blob/master/CHANGELOG.md)
 
 
 -----------------------------------------------------------------------------------------------------------
