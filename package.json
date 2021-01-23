@@ -3,7 +3,7 @@
 	"displayName": "Motivate Me",
 	"description": "",
 	"version": "1.0.0",
-	"publisher": "tsvillain",
+	"publisher": "TekeshwarSingh",
 	"repository": "https://github.com/tsvillain/MotivateMe",
 	"engines": {
 		"vscode": "^1.52.0"
