@@ -29,8 +29,18 @@ function updateStatusBarItem(): void {
 
 
 async function showQuote() {
-	const response = await fetch(apiUrl);
-	const json = await response.json();
-	vscode.window.showInformationMessage(`${json.quote}`);
+
+	try {
+		const response = await fetch(apiUrl);
+		const json = await response.json();
+		if (response.status === 200) {
+			vscode.window.showInformationMessage(`${json.quote}`);
+		} else {
+			vscode.window.showInformationMessage(`Something went Wrong\nContact Developer`);
+		}
+	} catch (error) {
+		vscode.window.showInformationMessage(`I can't work Offline`);
+	}
+
 }
 export function deactivate() { }

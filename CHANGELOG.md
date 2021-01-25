@@ -15,3 +15,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.2]
 
 - Added Logo
+
+## [1.0.3]
+
+- Better Error Handling
